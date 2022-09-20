@@ -233,3 +233,7 @@ p {
   margin-right: 10px;
   color: var(--text-color);
 }
+
+.icone-linguagem {
+    margin-left: 100px;
+}
