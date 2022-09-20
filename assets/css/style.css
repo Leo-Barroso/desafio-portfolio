@@ -3,24 +3,36 @@
 /*==========================*/
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
-    background: var(--body-bg-color);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+  font-family: "Merriweather Sans", sans-serif;
+  background: var(--body-bg-color);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
-    margin: 0px;
-    padding: 0px;
+body,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a,
+p {
+  margin: 0px;
+  padding: 0px;
 }
 
 /*==========================*/
@@ -28,10 +40,10 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 :root {
-    --body-bg-color: #22212C;
-    --text-color: #837E9F;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
 }
 
 /*==========================*/
@@ -39,11 +51,11 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .style-cards {
-    background: var(--bg-cards);
-    border-radius: 20px;
-    color: var(--text-color);
-    margin: 20px;
-    box-sizing: border-box;
+  background: var(--bg-cards);
+  border-radius: 20px;
+  color: var(--text-color);
+  margin: 20px;
+  box-sizing: border-box;
 }
 
 /*==========================*/
@@ -51,28 +63,28 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .informacoes-perfil {
-    grid-column: 1;
-    width: 348px;
-    height: 292px;
-    padding: 30px 40px;
-    text-align: center;
+  grid-column: 1;
+  width: 348px;
+  height: 292px;
+  padding: 30px 40px;
+  text-align: center;
 }
 
 .informacoes-perfil h4 {
-    font-size: 23px;
-    margin-top: 30px;
-    font-weight: bold;
+  font-size: 23px;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 .container-imagem {
-    text-align: center;
+  text-align: center;
 }
 
 .imagem-perfil {
-    width: 128px;
-    height: 128px;
-    border-radius: 50%;
-    border: solid 2px #00FF00;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: solid 2px #00ff00;
 }
 
 /*==========================*/
@@ -80,24 +92,24 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .informacoes-contato {
-    grid-column: 1;
-    width: 348px;
-    height: 348px;
-    padding: 30px 40px;
+  grid-column: 1;
+  width: 348px;
+  height: 348px;
+  padding: 30px 40px;
 }
 
-.informacoes-contato a{
-    color: var(--text-color)
+.informacoes-contato a {
+  color: var(--text-color);
 }
 
 .informacoes-contato li {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .informacoes-contato img {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 /*==========================*/
@@ -105,36 +117,36 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .informacoes-tecnologias {
-    grid-column: 1;
-    width: 348px;
-    height: 208px;
-    display: flex;
-    flex-wrap: wrap;
+  grid-column: 1;
+  width: 348px;
+  height: 208px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .informacoes-tecnologias h4 {
-    padding: 30px 20px 0px;
+  padding: 30px 20px 0px;
 }
 
 .lista-tecnologia {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .itens-tecnologia {
-    width: 76px;
-    height: 24px;
-    background: var(--bg-techs);
-    margin: 10px;
-    text-transform: uppercase;
-    border-radius: 30px;
-    color: black;
-    font-weight: bold;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: auto;
+  width: 76px;
+  height: 24px;
+  background: var(--bg-techs);
+  margin: 10px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
 }
 
 /*==========================*/
@@ -142,13 +154,13 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .informacoes-experiencias {
-    grid-column: 1;
-    width: 348px;
-    height: 352px; 
+  grid-column: 1;
+  width: 348px;
+  height: 352px;
 }
 
 .informacoes-experiencias h4 {
-    padding: 30px 20px 0px;
+  padding: 30px 20px 0px;
 }
 
 /* .lista-experiencia {
@@ -156,7 +168,7 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 } */
 
 .itens-experiencia {
-    padding: 20px 40px;
+  padding: 20px 40px;
 }
 
 /*==========================*/
@@ -164,19 +176,19 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .meus-projetos {
-    width: 952px;
-    height: 86px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
-    grid-column: 2 / 3;
-    grid-row: 1;
-    margin-left: 60px;
+  width: 952px;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin-left: 60px;
 }
 
 .meus-projetos span {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /*==========================*/
@@ -184,38 +196,40 @@ body, img, ul, li, h1, h2, h3, h4, h5, h6, div, a, p {
 /*==========================*/
 
 .projetos-lista {
-    grid-column: 2;
-    width: 461px;
-    height: 186px;
-    padding: 30px;
+  grid-column: 2;
+  width: 461px;
+  height: 186px;
+  padding: 30px;
 }
 
-.header-card, .footer-card {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.header-card,
+.footer-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.header-card img, .footer-card img {
-    margin-right: 20px;
+.header-card img,
+.footer-card img {
+  margin-right: 20px;
 }
 
 .projetos-lista p {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .linguagem-repositorio {
-    border: 1px solid red;
-    align-items: flex-start;
+  border: 1px solid red;
+  align-items: flex-start;
 }
 
 .linguagem-repositorio::before {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background: #E7DE79;
-    border-radius: 50%;
-    margin-right: 10px;
-    color: var(--text-color);
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #e7de79;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: var(--text-color);
 }
