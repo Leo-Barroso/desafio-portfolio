@@ -110,6 +110,10 @@ p {
 .informacoes-contato li {
   display: flex;
   align-items: center;
+  /* margin-top: 20px; */
+}
+
+.informacoes-contato li:nth-child(n+2) {
   margin-top: 20px;
 }
 
@@ -185,7 +189,7 @@ p {
 
 .container-projetos {
    grid-column: 2;
-   grid-row: 1 / 5;
+   grid-row: 1 / 5  ;
    margin: 40px;
 }
 
@@ -219,16 +223,24 @@ p {
   padding: 30px;
 }
 
-.header-card,
-.footer-card {
+.header-card {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
+.footer-card {
+  display: flex;
+  align-items: center;
+}
+
+.footer-card span {
+  margin-right: 20px;
+}
+
 .header-card img,
 .footer-card img {
-  margin-right: 20px;
+  margin-right: 8px;
 }
 
 .projetos-lista p {
@@ -236,12 +248,12 @@ p {
 }
 
 .linguagem-repositorio {
-  align-items: flex-start;
+  align-items: center;
+  margin-left: auto;
 }
 
 .linguagem-repositorio::before {
   content: "";
-  display: inline-block;
   width: 15px;
   height: 15px;
   background: #e7de79;
@@ -251,7 +263,9 @@ p {
 }
 
 .icone-linguagem {
-    margin-left: 100px;
+  /* margin-left: 100px; */
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*==========================*/
