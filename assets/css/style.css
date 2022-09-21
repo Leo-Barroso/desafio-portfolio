@@ -6,8 +6,6 @@ body {
   font-family: "Merriweather Sans", sans-serif;
   background: var(--body-bg-color);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
 }
 
 a {
@@ -54,8 +52,13 @@ p {
   background: var(--bg-cards);
   border-radius: 20px;
   color: var(--text-color);
-  margin: 20px;
   box-sizing: border-box;
+}
+
+.informacoes-gerais {
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+    gap: 30px;
 }
 
 /*==========================*/
@@ -68,6 +71,7 @@ p {
   height: 292px;
   padding: 30px 40px;
   text-align: center;
+  margin: 40px 0px 0px 40px;
 }
 
 .informacoes-perfil h4 {
@@ -96,6 +100,7 @@ p {
   width: 348px;
   height: 348px;
   padding: 30px 40px;
+  margin: auto 40px;
 }
 
 .informacoes-contato a {
@@ -122,6 +127,7 @@ p {
   height: 208px;
   display: flex;
   flex-wrap: wrap;
+  margin: auto 40px;
 }
 
 .informacoes-tecnologias h4 {
@@ -157,6 +163,7 @@ p {
   grid-column: 1;
   width: 348px;
   height: 352px;
+  margin: auto 40px;
 }
 
 .informacoes-experiencias h4 {
@@ -175,19 +182,30 @@ p {
 /*       CSS Projetos       */
 /*==========================*/
 
-.meus-projetos {
+
+.container-projetos {
+   grid-column: 2;
+   grid-row: 1;
+   margin: 40px;
+}
+
+.busca-projetos {
   width: 952px;
   height: 86px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
-  grid-column: 2 / 3;
-  grid-row: 1;
-  margin-left: 60px;
+  grid-column: 2;
 }
 
-.meus-projetos span {
+.projetos {
+    display: flex;
+    margin-top: 31px;
+    gap: 30px;
+}
+
+.busca-projetos span {
   font-size: 14px;
 }
 
@@ -196,7 +214,6 @@ p {
 /*==========================*/
 
 .projetos-lista {
-  grid-column: 2;
   width: 461px;
   height: 186px;
   padding: 30px;
@@ -219,7 +236,6 @@ p {
 }
 
 .linguagem-repositorio {
-  border: 1px solid red;
   align-items: flex-start;
 }
 
@@ -237,3 +253,38 @@ p {
 .icone-linguagem {
     margin-left: 100px;
 }
+
+/*==========================*/
+/*        CSS Posts         */
+/*==========================*/
+
+.posts-recentes {
+    width: 952px;
+    height: 86px;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+.posts-recentes {
+    display: flex;
+    align-items: center;
+}
+
+.post {
+    width: 952px;
+    height: 201px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-imagem-post {
+    display: flex;
+    padding: 31px 0px 42px 30px;
+}
+
+.imagem-perfil-post {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+  }
